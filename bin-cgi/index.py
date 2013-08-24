@@ -1,8 +1,17 @@
+# coding=utf-8
+import cgi
+import cgitb
+
+cgitb.enable()
+print "Content-Type: text/html"     # HTML is following
+print                               # blank line, end of headers
+
+print '''
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8"/>
-<base href="./">
+<base href="../">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <title>ErlangZ的BLOG</title>
 </head>
@@ -19,7 +28,7 @@
 <div id="left-bar">
 <header id="left-bar-head">文章分类</header>
 <ul id="left-bar-list">
-<li>杨小溪饲养记录</li>
+<li>杨小溪饲养记录cc</li>
 <li>吃喝玩乐</li>
 </ul>
 </div>
@@ -31,3 +40,4 @@
 </div>
 </body>
 </html>
+'''
