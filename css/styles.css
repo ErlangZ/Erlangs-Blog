@@ -1,0 +1,59 @@
+/*
+Orange:			EE872A
+Green:			8AC007
+Lightgreen:		e5eecc
+Blue:			40B3DF
+DarkGreyBg:		555555
+LightGreyBg:	F6F4F0
+GreyBorder:		D4D4D4
+Pink:			B4009E
+*/
+
+body{
+color:#000000;
+background-color:#F6F4F0;
+margin:0px;
+}
+
+/*
+页面内容占屏幕宽度的80%,左右对齐
+*/
+#top{
+width:65%;
+margin-top:20px;
+margin-left:auto;
+margin-right:auto;
+
+font-family:"Microsoft YaHei";
+}
+
+/*
+顶栏高度为80px；
+背景为灰色；
+*/
+*{
+border-color:red;
+}
+#headbar{
+height:140px;
+background-color:#D4D4D4;
+
+}
+#logo{
+float:left;
+height:140px;
+width:20%;
+}
+#moto{
+float:right;
+font-size:70px;
+}
+#left-bar{
+margin-top:10px;
+width:20%;
+font-size:20px;
+}
+#left-bar-list{
+margin:0px;
+list-style-type: none; 	
+}
